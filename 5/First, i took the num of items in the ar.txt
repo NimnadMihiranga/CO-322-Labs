@@ -1,0 +1,13 @@
+First, i took the num of items in the array 
+
+then by two loops, I added the items of the two arrays to the relevant list.
+
+then I called the function by entering two lists as inputs. in the beginning of the function max pairs are 0 and I made a copy of the array A to check whether the elements in the two arrays are equal.
+
+then by iterating through the temp array elements I checked whether the element in A is present in B if so then I removed the number from two arrays and incimented the pairs count by one. I did this for all the elements in A respectively and by removing I was able to get rid of the disjoint pairs count
+
+after the iterating I checked whether element size of the two arrays are larger than 0 if so then I can maximized the pairs count by changing one element and make the pairs count incremented by one.
+
+if size is not zero then I checked whether the elements in the two arrays are equal if so then i have to change one element of the array to make the pairwise disjoint beautiful by doing this pair count will be decremented by one so i decremented the pairs count by one
+
+and them i returned the pair count and print the pair count in the main fun 
